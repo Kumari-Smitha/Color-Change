@@ -9,7 +9,7 @@ function App() {
     arr.map((c)=>{
       setTimeout(()=>{
         setColor(c)
-      })
+      },100)
     })
   },[arr,color])
   
